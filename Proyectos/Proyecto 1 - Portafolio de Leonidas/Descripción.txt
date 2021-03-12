@@ -1,0 +1,10 @@
+Este proyecto es el primer acercamiento que tuve
+al desarrollo frontend. En él desarrolle un modelo
+de portafolio para el profesor del curso de desarrollo 
+web online, Leonidas Esteban. Gracias a este proyecto
+pude aprender los siguientes conceptos: DOM, Etiquetas HTML,
+las reglas CSS y su composicion, propiedades CSS para los textos,
+nociones de propiedades de dimenciones fijas para elementos,
+propiedades de background, margin, border, padding, el modelo de caja,
+la propiedad display y sus diferentes valores (principalmente flex), 
+alineamiento vertical de flexbox y alineamiento horizontal de flex-box. 

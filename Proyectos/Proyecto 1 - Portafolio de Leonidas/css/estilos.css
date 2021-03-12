@@ -1,0 +1,344 @@
+/*Reglas globales*/
+
+*{
+    margin: 0px;
+}
+
+.container{
+    width: 1000px;
+    height: inherit;
+    background-color: inherit;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    margin: 0 auto;
+    flex-direction: inherit;
+    flex-wrap: inherit;
+}
+
+/*Reglas que aplican al header*/
+
+header{
+    height: 70px;
+    background-color: #11242E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 40px 40px 40px #ffffff;
+}
+
+.menu ul{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+}
+
+.link{
+    margin: 0px 20px;
+}
+
+.link a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.link-b{
+    border: 1px solid #ffffff;
+    padding: 5px 30px;
+    border-radius: 2px;
+}
+
+/*Reglas que aplican al hero*/
+
+.hero{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F262A;
+    height: 297px;
+}
+
+h1{
+    color: #ffffff;
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 40px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+h1 strong{
+    color: #0868F9;
+}
+
+.hero-image{
+    object-fit: cover;
+    width: 514px;
+    height: 300px;
+}
+
+/*Reglas que aplican al portafolio de proyectos*/
+
+h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    color: #0868F9;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 30px 0px 30px 30px;
+}
+
+.project{
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    box-shadow: 6px 6px 10px #c9c9c9;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.project-detail{
+    margin-left: 20px ;
+    margin-top: 20px;
+}
+
+.project-title{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.project-subtitle{
+    color: gray;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+.project-date , .project-link{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 16px;
+    margin: 5px 0px;
+}
+
+.project-date strong, .project-link {
+    color: #000000;
+}
+
+.project-link{
+    margin-bottom: 20px;
+}
+
+.project-link a {
+    color: gray;
+    font-size: 15px;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 600;
+}
+
+.project-description{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+/*Reglas css que aplican a los eventos*/
+
+.events{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.event{
+    width: 478px;
+    border: 1px solid#e0e0e0;
+    border-radius:3px;
+    box-shadow: 5px 5px 5px #c9c9c9;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: lightcyan;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.event-image{
+    object-fit: cover;
+}
+
+.event-details{
+    width: 336px;
+    margin-left:72px;
+    margin-right: 72px;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 15px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.event-title{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.event-description{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: grey;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.event-link{
+    border: 1px solid #0868F9;
+    border-radius: 10px;
+    padding: 5px 60px;
+    margin: 15px auto;
+    color: #0868F9;
+    font-family: 'source Sans Pro', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Reglas que aplican a la seccion de contacto*/
+
+.contact{
+    background-color: #0868F9;
+    color: white;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+    flex-direction: row;
+
+}
+
+.contact-tittle{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.form-email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    width: 350px;
+    height: 30px;
+    padding: 5px 20px 5px 25px;
+    border: 1px solid #201e1e;
+    border-radius: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    background-image: url(../images/envelope.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 120px;
+    background-size: 15px 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button{
+    width: 200px;
+    height: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #0868F9;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: white;
+    margin: 15px 0 15px 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+.social-nets{
+    display: inline;
+    display: flex;
+}
+
+.social-link{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.social-link.twiter{
+    background-image: url('../images/twitter.svg');
+    background-size: 50px 50px;
+}
+
+.social-link.facebook{
+    background-image: url('../images/facebook.svg');
+    background-size: 50px 50px;
+}
+
+.social-link.github{
+    background-image: url('../images/github.svg');
+    background-size: 50px 50px;
+}
+
+.social-link.instagram{
+    background-image: url('../images/instagram.svg');
+    background-size: 50px 50px;
+}
+
+/* Reglas css que aplican al footer*/
+
+footer{
+    height: 70px;
+    background-color: #11242E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer .platzi-image{
+    vertical-align: middle;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.course{
+    margin-right: 10px;
+
+}
+
+.designer a{
+    color: white;
+}

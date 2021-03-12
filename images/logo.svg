@@ -1,0 +1,28 @@
+<svg id="logo_8" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="Rectángulo_1" data-name="Rectángulo 1" fill="rgba(24,24,24,0.9)" stroke="#2e2e2e" stroke-width="1">
+    <rect width="100" height="100" rx="50" stroke="none"/>
+    <rect x="0.5" y="0.5" width="99" height="99" rx="49.5" fill="none"/>
+  </g>
+  <g id="Componente_9_1" data-name="Componente 9 – 1" transform="translate(28 10.5)">
+    <g id="Componente_8_1" data-name="Componente 8 – 1">
+      <path id="Trazado_1" data-name="Trazado 1" d="M235.777,490.6v-55l15.875,34.926,9.124,20.074" transform="translate(-235.777 -421.513)" fill="none" stroke="#ff0b56" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="3"/>
+      <path id="Trazado_10" data-name="Trazado 10" d="M0,55V0L15.875,34.926,25,55" transform="translate(41 69.589) rotate(180)" fill="none" stroke="#ff0b56" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="3"/>
+      <line id="Línea_4" data-name="Línea 4" x2="25" y2="56" transform="translate(10.5 13.8)" fill="none" stroke="#ff0b56" stroke-width="3"/>
+      <line id="Línea_5" data-name="Línea 5" x2="25" y2="56" transform="translate(5.5 13.8)" fill="none" stroke="#ff0b56" stroke-width="3"/>
+      <line id="Línea_6" data-name="Línea 6" y1="48" transform="translate(5.5 32)" fill="none" stroke="#ff0b56" stroke-width="3"/>
+      <line id="Línea_13" data-name="Línea 13" y1="48" transform="translate(35.5)" fill="none" stroke="#ff0b56" stroke-width="3"/>
+      <line id="Línea_11" data-name="Línea 11" y2="16" transform="translate(12.5 49.6)" fill="none" stroke="#ff0b56" stroke-width="3"/>
+      <line id="Línea_14" data-name="Línea 14" y2="16" transform="translate(28.5 18.4)" fill="none" stroke="#ff0b56" stroke-width="3"/>
+    </g>
+    <g id="Componente_8_2" data-name="Componente 8 – 2" transform="translate(3)">
+      <path id="Trazado_1-2" data-name="Trazado 1" d="M235.777,490.6v-55l15.875,34.926,9.124,20.074" transform="translate(-235.777 -421.513)" fill="none" stroke="#08fdd8" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="3"/>
+      <path id="Trazado_10-2" data-name="Trazado 10" d="M0,55V0L15.875,34.926,25,55" transform="translate(41 69.589) rotate(180)" fill="none" stroke="#08fdd8" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="3"/>
+      <line id="Línea_4-2" data-name="Línea 4" x2="25" y2="56" transform="translate(10.5 13.8)" fill="none" stroke="#08fdd8" stroke-width="3"/>
+      <line id="Línea_5-2" data-name="Línea 5" x2="25" y2="56" transform="translate(5.5 13.8)" fill="none" stroke="#08fdd8" stroke-width="3"/>
+      <line id="Línea_6-2" data-name="Línea 6" y1="48" transform="translate(5.5 32)" fill="none" stroke="#08fdd8" stroke-width="3"/>
+      <line id="Línea_13-2" data-name="Línea 13" y1="48" transform="translate(35.5)" fill="none" stroke="#08fdd8" stroke-width="3"/>
+      <line id="Línea_11-2" data-name="Línea 11" y2="16" transform="translate(12.5 49.6)" fill="none" stroke="#08fdd8" stroke-width="3"/>
+      <line id="Línea_14-2" data-name="Línea 14" y2="16" transform="translate(28.5 18.4)" fill="none" stroke="#08fdd8" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

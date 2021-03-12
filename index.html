@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola, soy Nelson Marquez</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="icon" href="./images/favicon.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <i class="icon-menu burger-buttom is-active" id="burger-menu"></i>
+    <header>
+        
+            <figure class="header-logo">
+                <img src="./images/logo.svg"  alt="Logo-header">
+            </figure>
+            <nav class="menu">
+                <ul>
+                    <li class="link">
+                        <a href="#About">Sobre mi</a>
+                    </li>
+                    <hr style="width: 100%; border-color: rgb(132,132,132);">
+                    <li class="link">
+                        <a href="#proyectos">Portafolio</a>
+                    </li>
+                    <hr style="width: 100%; border-color: rgb(132,132,132);">
+                    <li class="link">
+                        <a href="#diplomas">Certificados</a>
+                    </li>
+                    <hr style="width: 100%; border-color: rgb(132,132,132);">
+                    <li class="link">
+                        <a href="./cv/mi_cv.pdf" target="_blank">Curriculum</a>
+                    </li>
+                    <hr style="width: 100%; border-color: rgb(132,132,132);">
+                    <li class="link">
+                        <a href="#contacto">Trabajemos juntos</a>
+                    </li>
+                </ul>
+            </nav>
+        
+    </header>
+
+    <main class="about" id="About">
+
+        <div class="presentation">
+            <h1>
+                Hola, <br> soy <img src="./images/n.svg" alt="Logo usado como letra de nombre">elson Marquez <br> y soy web developer
+            </h1>
+    
+            <figure class="image-container">
+                <img class="hero-image" src="./images/yo_editado.png" alt="Imagen del hero">
+            </figure>
+            
+            <p  class="my-description" style="color: white;">
+                Soy un desarrollador front-end ubicado en Córdoba Argentina. En el último <br> año é desarrollado una gran pasión por el desarrollo web, principalmente por <br> la rama front end y todo lo que ella implica. Tengo como objetivo ampliar mis <br> conocimientos en la rama front end e incurcionar en la rama back end. <br> El secreto esta en núnca dejar de aprender. <br> <br>
+    
+                Me considero una persona bien organizada, atenta a los detalles <br> y en busqueda permanente de la resolución de problemas. Fan de las actividades <br> al aire libre, sobre todo ciclismo y running. Amante de la música y de las charlas <br> de debate de cualquier tema.
+            </p>
+        </div>
+        
+
+        
+
+    </main>
+
+    <script>
+        const menu = document.querySelector('.menu');
+        const burgerButton = document.querySelector('#burger-menu');
+
+        burgerButton.addEventListener('click', hideShow)
+
+        function hideShow() {
+            if (menu.classList.contains('is-active')){
+                menu.classList.remove('is-active');
+            } else {
+                menu.classList.add('is-active');
+            }
+        }
+    </script>
+
+</body>
+</html>
